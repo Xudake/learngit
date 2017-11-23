@@ -3,5 +3,5 @@ git init 初始化创建一个仓库
 git status  获取仓库的状态              
 git add 添加到仓库，改变到即将提交的状态
 git commit -m "desc" 提交修改
-git log
+git log  查看版本信息
 git reflog
