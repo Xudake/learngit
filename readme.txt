@@ -8,6 +8,7 @@ git log  查看版本信息
 git log --pretty=oneline 查看库信息。在一行显示
 git reflog 记录git的每一次命令
 git diff 查看不同，添加以后就看不出。
+git reset --hard HEAD^ 回退到上一个版本
 
 工作区，暂存区
 版本库，远端库
