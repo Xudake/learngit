@@ -5,6 +5,7 @@ git status  获取仓库的状态
 git add 添加到仓库，改变到即将提交的状态
 git commit -m "desc" 提交修改
 git log  查看版本信息
+git log --pretty=oneline 查看库信息。在一行显示
 git reflog 记录git的每一次命令
 git diff 查看不同，添加以后就看不出。
 
