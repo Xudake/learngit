@@ -6,7 +6,7 @@ git add 添加到仓库，改变到即将提交的状态
 git commit -m "desc" 提交修改
 git log  查看版本信息
 git reflog 记录git的每一次命令
-git diff 查看不同
+git diff 查看不同，添加以后就看不出。
 
 工作区，暂存区
 版本库，远端库
