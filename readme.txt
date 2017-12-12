@@ -24,6 +24,7 @@ git checkout [name] 切换分支
 git checkout -b [name] 创建加切换分支
 git merge [name] 合并某分支到当前分支
 git branch -d [name] 删除分支
+git log --graph 查看分支合并图
 
 
 工作区：电脑中所看到的目录，目录里的 .git 不算工作区，只是git的版本库
