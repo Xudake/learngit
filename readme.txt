@@ -36,3 +36,5 @@ git branch -d [name] 删除分支
 
 add到暂存区后，让文件返回到未add的前的状态,然后就可以通过上面一行的命令丢弃工作区的修改了~
 修改以后提交到了暂存区还提交到了本地库：git reset --hard HEAD^(返回上一个版本)
+
+creat a new branch is quick and simple.
