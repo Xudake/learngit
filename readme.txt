@@ -13,6 +13,10 @@ git reflog： 				记录git的每一次命令
 git checkout -- readme.txt：可以丢弃工作区的修改 (修改文件后还没有提交到暂存区)
 git reset HEAD readme.txt： 可以让暂存区的东西回退到add前，然后就可以利用git checkout -- readme.txt 			 								丢弃工作区的修改~（已经add到暂存区，但是还没有commit提交到分支。)
 git rm file4.txt:			删除一个文件
+git remote add origin git@... 关联一个远程库
+git push -u origin master 	第一次推送master分支的所有内容
+git push origin master 		推送最新的修改
+git clone 克隆一个仓库 （git 支持多种协议 包含合https和ssh,但是ssh的协议速度最快）
 
 
 
