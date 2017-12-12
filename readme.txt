@@ -18,6 +18,12 @@ git push -u origin master 	第一次推送master分支的所有内容
 git push origin master 		推送最新的修改
 git clone 克隆一个仓库 （git 支持多种协议 包含合https和ssh,但是ssh的协议速度最快）
 
+git branch 查看分支
+git breanch [name] 创建分支
+git checkout [name] 切换分支
+git checkout -b [name] 创建加切换分支
+git merge [name] 合并某分支到当前分支
+git branch -d [name] 删除分支
 
 
 工作区：电脑中所看到的目录，目录里的 .git 不算工作区，只是git的版本库
